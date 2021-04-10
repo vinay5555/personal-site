@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514e;
 }
 
 h1 {
@@ -24,20 +25,26 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .top-container {
   position: relative;
   padding-top: 100px;
   background-color: #e4f9f5;
+}
+
+.intro{
+  width:20%;
+  margin:auto;
+
 }
 
 .para {
@@ -63,7 +70,9 @@ h3 {
 
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px 0;
+}
 
 .bottom-container {
   background-color: #66BFBF;
@@ -75,16 +84,20 @@ h3 {
 a {
   color: #11999E;
   margin: 10px;
-
-
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
 }
 
 .skill-row1{
   width: 50%;
   margin: 50px auto;
   text-align: left;
-  line-height: 2;
   padding: 50px 0;
+}
+p{
+  line-height: 2;
 }
 
 .skill-row2{
@@ -99,13 +112,16 @@ hr{
   border-style:none;
   border-top-style: dotted;
   border-color: #EAF6F6;
-
+  margin: 100px auto;
 }
 p{
   color: #40514E;
 }
+
 .last{
-  color: #FFFFFF;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 .BUTTON_RXR {
    -webkit-border-radius: 20px;
